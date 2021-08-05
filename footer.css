@@ -1,0 +1,75 @@
+.download{
+    display: flex;
+    padding: 8% 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.download .label{
+    display: inline-block;
+    margin-bottom: 1.7%;
+    color: #727272;
+    font-family: ClanPro,sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font: bold;
+}
+.download .storess img{
+    width: 151px;
+    height: 45px;
+    display: inline-block;
+    vertical-align: top;
+}
+.download .storess{
+    width: 27%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+/*Footer css starts here*/
+
+footer{
+    background: rgba(68,68,68,.87);
+    padding: 4% 5%;
+    display: flex;
+    
+}
+footer .Left_container{
+    display: inline-block;
+    width: 50%;
+
+}
+footer .Right_container
+{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    padding: 0 0 0 22%;
+}
+footer .Left_container li{
+    list-style: none;
+    margin: 2% 0%;
+}
+footer a,span{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+footer .Right_container a,span{
+    margin: 5% 0%;
+}
+footer .Left_container img{
+    height: 75px;
+    width: 240px;
+    margin: 1% 0 0 0%; 
+    padding: 0% 23%;
+}
+.Left_container ul{
+    padding-left: 25%;
+}
+footer .Left_container div{
+    color: hsla(0,0%,86.7%,.37);
+    font-weight: 100;
+    padding: 0% 25%;
+}
+

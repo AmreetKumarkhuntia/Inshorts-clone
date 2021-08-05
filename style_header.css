@@ -1,0 +1,54 @@
+@import url('http://fonts.cdnfonts.com/css/clanpro-cond');
+html{
+    font-family: ClanPro,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+body{
+    margin: 0%; 
+}
+.header{
+    display: flex;
+    height: 20vh;
+
+}
+#logo{
+    height: 75px;
+    display: inline-block;
+    width: 215px;
+    margin: 1% 0 0 15%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.headerelements
+{
+display: flex;
+flex-direction: row-reverse;
+width: 80%;
+}
+.headerelements a{  
+    text-decoration: none;
+ 
+}
+.content{
+    margin-top: 3.95%;
+    margin-bottom:0% ;
+    margin-left:2.5% ;
+    margin-right: 3%;
+}
+.headerelements a{
+    border-bottom-style: solid;
+    color: hsla(0,0%,44.7%,.3);
+    padding-bottom: 3px;
+    border-bottom-width: 1px;
+}
+.headerelements #blog 
+{
+    margin-right: 22%;
+}
+.headerelements a:hover
+{
+    color: #369af8;
+}
+
+
